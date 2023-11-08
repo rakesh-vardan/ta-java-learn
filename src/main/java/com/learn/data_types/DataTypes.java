@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.data_types;
 
 public class DataTypes {
 

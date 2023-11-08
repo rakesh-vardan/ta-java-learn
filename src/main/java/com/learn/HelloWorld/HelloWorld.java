@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.HelloWorld;
 
 public class HelloWorld {
 

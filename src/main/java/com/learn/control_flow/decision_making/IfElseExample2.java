@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.control_flow.decision_making;
 
 import java.util.Scanner;
 
