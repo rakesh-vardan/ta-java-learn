@@ -1,3 +1,5 @@
+## Operators, Loops & Control-Flow:
+
 ### Task 1: Basic Arithmetic Operators
 
 - Write a Java program that calculates the area of a rectangle. Ask the user for the length and width as input, and then compute and display the area.
@@ -39,3 +41,20 @@ For example, if the user enters `12345`, the program should print `54321`.
 
 - Write a program that finds the prime factorization of a number entered by the user.
 For example, if the user enters 36, the program should print `2 * 2 * 3 * 3` as the prime factorization.
+
+## OOPs:
+
+### Task 10: Inheritance
+- Create a base class called Shape with properties like color and a method getArea(). Then, create two derived classes Circle and Rectangle that inherit from Shape. Implement the specific logic for calculating the area in each derived class.
+
+### Task 11: Polymorphism
+- Define an interface called Drawable with a method draw(). Make the Circle and Rectangle classes from the previous task implement this interface. Create an array of Drawable objects and demonstrate polymorphism by calling the draw() method on each object, regardless of whether it's a circle or rectangle.
+
+### Task 12: Method Overriding
+- Extend the Shape example by adding a method displayInfo() in the base class. Override this method in both Circle and Rectangle to display information specific to each shape. Create instances of both shapes and call the displayInfo() method on each.
+
+### Task 13: Abstract Class
+- Introduce an abstract class called Vehicle with common properties like brand and an abstract method start(). Create two concrete classes, Car and Motorcycle, that extend Vehicle and implement the start() method in their own way.
+
+### Task 14: Interface and Inheritance
+- Create an interface Eatable with a method consume(). Implement this interface in a class Fruit. Then, create a class Apple that extends Fruit. Implement the consume() method in both Fruit and Apple classes.
