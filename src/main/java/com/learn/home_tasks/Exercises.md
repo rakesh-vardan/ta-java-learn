@@ -58,3 +58,32 @@ For example, if the user enters 36, the program should print `2 * 2 * 3 * 3` as 
 
 ### Task 14: Interface and Inheritance
 - Create an interface Eatable with a method consume(). Implement this interface in a class Fruit. Then, create a class Apple that extends Fruit. Implement the consume() method in both Fruit and Apple classes.
+
+## Exception Handling
+
+### Task 15: Basic Exception Handling
+- Write a program that takes two numbers as input from the user and divides them. Handle ArithmeticException for division by zero and InputMismatchException for invalid input.
+
+### Task 16: Custom Exception
+- Create a custom exception class called InvalidInputException. Modify the program from Task 15 to throw this exception when the input is not a valid number.
+
+### Task 17: Multiple Catch Blocks
+- Write a program that reads data from a file. Handle FileNotFoundException for the file not found, IOException for other IO-related issues, and a generic Exception for any other unforeseen errors.
+
+### Task 18: Try-with-Resources
+- Create a program that reads data from a file using the BufferedReader class. Use try-with-resources to automatically close the resources (BufferedReader) after use. Handle IOException appropriately.
+
+### Task 19: Exception Propagation
+- Write a method that calls another method. The inner method should throw a custom exception, and the outer method should catch and handle that exception. Demonstrate how exceptions propagate up the call stack.
+
+### Task 20: Finally Block
+- Modify the program from Task 19 to include a finally block. Print a message in the finally block to indicate that it is being executed regardless of whether an exception occurred or not.
+
+### Task 21: Checked vs Unchecked Exceptions
+- Write a program that intentionally divides a number by zero. Observe the difference between checked exceptions (those that need to be declared or caught) and unchecked exceptions (runtime exceptions).
+
+### Task 22: Exception Chaining
+- Create a chain of exceptions by catching one exception type and throwing another with additional information. Demonstrate how this can be useful for providing more detailed error messages.
+
+### Task 23: Cleanup Operations
+- Write a program that opens a network connection or a file and handles IOException. Ensure that the resources are properly closed in a finally block or by using try-with-resources.
