@@ -1,4 +1,4 @@
-package com.learn.oops.keywords;
+package com.learn.keywords;
 
 public class StaticMethodExample {
     public static void main(String[] args) {

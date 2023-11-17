@@ -1,4 +1,4 @@
-package com.learn.oops.keywords;
+package com.learn.keywords;
 
 // Parent class
 class Animal {
