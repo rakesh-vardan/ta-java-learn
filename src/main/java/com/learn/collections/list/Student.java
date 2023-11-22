@@ -1,4 +1,4 @@
-package com.learn.collections;
+package com.learn.collections.list;
 
 public class Student {
 
