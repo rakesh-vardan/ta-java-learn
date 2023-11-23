@@ -87,3 +87,48 @@ For example, if the user enters 36, the program should print `2 * 2 * 3 * 3` as 
 
 ### Task 23: Cleanup Operations
 - Write a program that opens a network connection or a file and handles IOException. Ensure that the resources are properly closed in a finally block or by using try-with-resources.
+
+## Collections Framework
+
+### Task 24: Basic Operations - List
+- Create an ArrayList and a LinkedList.
+- Perform common operations such as adding elements, removing elements, and retrieving elements.
+- Print the elements of both lists.
+
+### Task 25: Iteration - List
+- Use an iterator to iterate through both the ArrayList and LinkedList.
+- Print each element during iteration.
+
+### Task 26: Performance Comparison - List
+- Write a program that measures the time taken to perform add, remove, and get operations on both ArrayList and LinkedList for a large number of elements.
+- Compare the performance differences.
+
+### Task 27: Basic Operations - Set
+- Create a HashSet and a LinkedHashSet.
+- Perform common operations such as adding elements, removing elements, and checking for the existence of elements.
+- Print the elements of both sets.
+
+### Task 28: Iteration - Set
+- Use an iterator to iterate through both the HashSet and LinkedHashSet.
+- Print each element during iteration.
+
+### Task 29: Order Observation - Set
+- Observe and document the order in which elements are stored in HashSet and LinkedHashSet.
+- Discuss the differences between the two in terms of ordering.
+
+### Task 30: Basic Operations - Map
+- Create a HashMap and a LinkedHashMap.
+- Perform common operations such as adding key-value pairs, removing entries, and retrieving values based on keys.
+- Print the key-value pairs of both maps.
+
+### Task 31: Iteration - Map
+- Use an iterator or enhanced for loop to iterate through both the HashMap and LinkedHashMap.
+- Print each key-value pair during iteration.
+
+### Task 32: Order Observation - Map
+- Observe and document the order in which key-value pairs are stored in HashMap and LinkedHashMap.
+- Discuss the differences between the two in terms of ordering.
+
+### Task 33: Combine Collections - Advanced
+- Create a program that uses a combination of List, Set, and Map.
+- For example, create a list of custom objects, a set of unique values from the list, and a map where keys are derived from the list and values are some transformation of the list elements.
