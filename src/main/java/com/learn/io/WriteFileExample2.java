@@ -1,4 +1,4 @@
-package com.learn.collections.io;
+package com.learn.io;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
